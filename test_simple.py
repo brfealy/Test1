@@ -3,7 +3,7 @@ import os
 
 def main():
     x = sys.argv[1]
-    if x == "A":
+    if x == "B":
         print("Test succeeded, return without error.")
         return 0
     else:
