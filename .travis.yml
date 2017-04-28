@@ -17,4 +17,4 @@ before_script:
   - chmod 777 ./test_simple.py
 
 # command to run tests
-script: ./test_simple.py
+script: ./test_simple.py B
