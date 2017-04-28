@@ -12,5 +12,9 @@ python:
   - "nightly" # currently points to 3.7-dev
 # command to install dependencies
 install: "pip install -r requirements.txt"
+
+before_script:
+  - chmod 777 ./test_simple.py
+
 # command to run tests
 script: ./test_simple.py
