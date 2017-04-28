@@ -1,6 +1,7 @@
 import sys
 import os
 
+
 def main():
     x = sys.argv[1]
     if x == "B":
