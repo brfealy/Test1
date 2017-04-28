@@ -3,8 +3,8 @@ import os
 
 
 def main():
-    x = sys.argv[1]
-    if x == "B":
+    thing = sys.argv[1]
+    if thing == "B":
         print("Test succeeded, return without error.")
         return 0
     else:
