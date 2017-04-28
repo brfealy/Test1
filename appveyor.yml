@@ -1,0 +1,5 @@
+
+version: '1.0.{build}'
+
+ install:
+  - cinst python -version 3.4.1
