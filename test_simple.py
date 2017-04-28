@@ -4,7 +4,7 @@ import os
 def main():
     x = sys.argv[1]
     if x == "A":
-        print("Test succeeded, return 0")
+        print("Test succeeded, return without error")
         return 0
     else:
         raise ValueError("Error in test_simple.py")
